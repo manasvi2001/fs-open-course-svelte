@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Button from '$lib/Button.svelte';
-  import Statistics from '$lib/Statistics.svelte';
+  import Button from '$lib/components/Button.svelte';
+  import Statistics from '$lib/components/Statistics.svelte';
 
   let good = 0;
   let neutral = 0;
