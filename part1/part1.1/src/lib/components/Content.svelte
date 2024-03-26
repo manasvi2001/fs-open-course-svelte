@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Part from './Part.svelte';
+  import Part from './Part.svelte';
 
-	export let parts: { name: string; exercises: number }[] = [];
+  export let parts: { name: string; exercises: number }[] = [];
 </script>
 
 <Part part={parts[0]} />
